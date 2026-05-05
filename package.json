@@ -1,0 +1,21 @@
+{
+  "name": "student-data-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Student Data app",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "student-data-mcp": "index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgurasich/student-data-mcp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
